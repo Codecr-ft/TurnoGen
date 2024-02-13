@@ -11,3 +11,5 @@ Soy gerente de un restaurante y tengo un problema para organizar los turnos de m
 
 ## Problema 0.1
 ### Problema 0.2 **Erika** *Erika*
+## Problema 0.3 ~~Lucas~~
+
