@@ -9,7 +9,3 @@ Soy gerente de un restaurante y tengo un problema para organizar los turnos de m
 - Tener en cuenta las necesidades particulares de cada trabajador, como sus días de asuntos propios, los descansos, las vacaciones o la propia conciliación.
 - Tener que calcular las horas extras/complementarias que ha realizado cada trabajador, o las horas en horario nocturno, así como los turnos partidos que hace cada uno de ellos, ya que intentamos limitarlos a 1 turno partido a la semana.
 
-## Problema 0.1
-### Problema 0.2 **Erika** *Erika*
-## Problema 0.3 ~~Lucas~~
-
