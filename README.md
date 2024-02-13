@@ -1,7 +1,10 @@
-# TurnoGen
+## Problema
 
-TurnoGen es una aplicación que genera automáticamente turnos de trabajo para un negocio, basándose en una plantilla con las características de cada trabajador (experiencia, horas semanales, etc.) y las necesidades de cada día (horas pico, demanda, etc.).
+Soy gerente de un restaurante y tengo un problema para organizar los turnos de mis empleados todos los meses. Al organizar los turnos tengo que tener en cuenta muchos parámetros que complican el proceso, además de que es muy rutinario y pesado.
 
-## Descripcion de problemas
-
-Queremos generar una aplicación que sea capaz de organizar de forma automática los turnos de todos los empleados de un local, principalmente del sector de la restauración. La aplicación tendrá en cuenta las horas semanales de cada trabajador, su experiencia y su nivel de responsabilidad, así como las necesidades logísticas especiales del calendario, como los días festivos o las horas punta,  para que haga un reparto lógico y equitativo entre todos. De esta forma, se garantiza el cumplimiento de la normativa laboral, la satisfacción de los clientes y la motivación de los empleados. Además, la aplicación permitirá añadir necesidades concretas de los trabajadores, como descansos concretos o bajas laborales, y podrá reorganizar el calendario según estos imprevistos.
+- Organizar un horario todos los meses con los turnos de todos mis empleados.
+- Tener en cuenta el contrato de todos mis empleados para saber cuantas horas semanales tiene que realizar cada uno de ellos.
+- Tener en cuenta la experiencia y responsabilidad de cada uno, para que en todas las horas de trabajo esté compensado y haya siempre alguien responsable en turno.
+- Tener en cuante que tanto en la apertura como en el cierre del local deben de haber siempre mínimo 2 personas.
+- Tener en cuenta las necesidades particulares de cada trabajador, como sus días de asuntos propios, los descansos, las vacaciones o la propia conciliación.
+- Tener que calcular las horas extras/complementarias que ha realizado cada trabajador, o las horas en horario nocturno, así como los turnos partidos que hace cada uno de ellos, ya que intentamos limitarlos a 1 turno partido a la semana.
