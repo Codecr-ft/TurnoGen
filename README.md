@@ -1,6 +1,8 @@
-## Problema
+# Problema
 
-Soy gerente de un restaurante y tengo un problema para organizar los turnos de mis empleados todos los meses. Al organizar los turnos tengo que tener en cuenta muchos parámetros que complican el proceso, además de que es muy rutinario y pesado.
+Soy gerente de un restaurante y tengo un problema todos los meses con la elaboración de los horarios, ya que debido al número de trabajadores y todos los parámetros que tengo que tener en cuenta se me hace una tarea excesivamente compleja, pesada y rutinaria.
+
+## Desglose del problema
 
 - Organizar un horario todos los meses con los turnos de todos mis empleados.
 - Tener en cuenta el contrato de todos mis empleados para saber cuantas horas semanales tiene que realizar cada uno de ellos.
