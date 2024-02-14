@@ -2,11 +2,11 @@
 
 ## HU1:
    - Problema:
-*María encuentra complicado organizar los horarios mensuales de los empleados debido a la dificultad para acceder y registrar la información necesaria, como los detalles de los contratos laborales, la experiencia y responsabilidad de cada uno.*
+*María encuentra complicado tener información detallada de todos los empleados que trabajan en el restaurante, con los detalles de los nombres de cada uno, los contratos laborales (para poder acceder a las horas semanales que debe trabajar cada uno) y su responsabilidad.*
 
 ## HU2:
    - Problema:
-*María sabe que gestionar peticiones específicas y organizar de manera manual es un trabajo en el que pierde tiempo y da lugar a errores, ya que debe considerar múltiples variables como las horas semanales requeridas por contrato y la experiencia laboral de cada empleado, ya que en cada turno debe haber un trabajador con experiencia suficiente.*
+*María quiere poder tener claro el calendario de apertura del restaurante, y tener una mayor especificación de las horas de apertura de cada día, los días de cierre, y tener una visión mensual y semanal del negocio donde poder encajar todos los turnos de los trabajadores.*
 
 ## HU3:
  - Problema:
