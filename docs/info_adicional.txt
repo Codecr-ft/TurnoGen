@@ -1,1 +1,13 @@
 Aquí pondremos info adicional del proyecto que nos requiera el profesor y la enlazaremos con el README.md
+
+# HISTORIAS DE USUARIO:
+
+## HU1:
+
+## HU2:
+
+## HU3:
+
+## HU4:
+
+## HU5:
