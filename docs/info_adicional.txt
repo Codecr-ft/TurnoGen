@@ -1,0 +1,1 @@
+Aquí pobdremos info adicional del proyecto que nos requiera el profesor y la enlazaremos con el README.md
