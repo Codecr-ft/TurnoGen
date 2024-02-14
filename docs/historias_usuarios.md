@@ -9,11 +9,10 @@
 
 ## HU3:
 
-**¡Ojalá Juan pueda mantener su creatividad culinaria y liderar con éxito el equipo 
-de cocina en el restaurante de alta cocina donde trabaja!**
+** Ojalá María pueda tener en cuenta los diversos requisitos del negocio al programar los turnos de trabajo, como los días y horas pico, y, además, asegurando que siempre haya dos personas presentes en las aperturas y cierres del local.**
 
-   - Problema:
-*Juan se enfrenta a la presión de mantener la calidad y la consistencia en la cocina durante períodos de alta demanda y picos de servicio, mientras equilibra la innovación culinaria con las expectativas de los clientes habituales.*
+ - Problema:
+   *María se enfrenta a dificultades para programar los turnos de trabajo de manera óptima, ya que debe considerar las horas y días de mayor actividad del restaurante, así como los días de menos actividad, garantizando siempre la presencia de al menos dos empleados en los horarios de apertura y cierre para mantener la seguridad y la eficiencia en el servicio.*
 
 ## HU4:
 
