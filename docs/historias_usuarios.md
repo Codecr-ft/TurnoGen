@@ -9,6 +9,12 @@
 
 ## HU3:
 
+**¡Ojalá Juan pueda mantener su creatividad culinaria y liderar con éxito el equipo 
+de cocina en el restaurante de alta cocina donde trabaja!**
+
+   - Problema:
+*Juan se enfrenta a la presión de mantener la calidad y la consistencia en la cocina durante períodos de alta demanda y picos de servicio, mientras equilibra la innovación culinaria con las expectativas de los clientes habituales.*
+
 ## HU4:
 
 ## HU5:
