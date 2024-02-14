@@ -5,8 +5,10 @@
    - Problema:
 *María encuentra complicado organizar los horarios mensuales de los empleados debido a la dificultad para acceder y registrar la información necesaria, como los detalles de los contratos laborales, la experiencia y responsabilidad de cada uno.*
 
-## HU2:Camarera de barra Lorena Lima
-Lorena quiere un horario de trabajo específico y fijo. Es decir, que no sea rotativo. para que pueda continuar sus estudios. 
+## HU2:
+**Ojalá María pueda añadir peticiones específicas de cada empleado y empleada** 
+-Problema:
+*María sabe que gestionar peticiones específicas podría significar perder tiempo para volver a organizar el horario y tiene dificultades para mantenerlo organizado.
 
 ## HU3:
 
