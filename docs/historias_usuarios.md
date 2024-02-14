@@ -8,7 +8,7 @@
 ## HU2:
 **Ojalá María pueda automatizar el proceso de organización de horarios, teniendo en cuenta las horas semanales a cumplir y experiencia del empleado en el trabajo.**
 
-   -Problema:
+   - Problema:
 *María sabe que gestionar peticiones específicas y organizar de manera manual es un trabajo en el que pierde tiempo y da lugar a errores, ya que debe considerar múltiples variables como las horas semanales requeridas por contrato y la experiencia laboral de cada empleado, ya que en cada turno debe haber un trabajador con experiencia suficiente.*
 
 ## HU3:
