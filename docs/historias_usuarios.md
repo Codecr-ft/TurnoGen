@@ -2,7 +2,7 @@
 
 ## HU1:
    - Problema:
-*María encuentra complicado tener información detallada de todos los empleados que trabajan en el restaurante, con los detalles de los nombres de cada uno, los contratos laborales (para poder acceder a las horas semanales que debe trabajar cada uno) y su responsabilidad.*
+*María encuentra complicado tener información organizada de todos los empleados que trabajan en el restaurante, con los detalles de los nombres de cada uno, los contratos laborales (para poder acceder a las horas semanales que debe trabajar cada uno) y su responsabilidad.*
 
 ## HU2:
    - Problema:
