@@ -19,3 +19,5 @@
 ## HU5:
    - Problema:
 *María encuentra difícil llevar un registro preciso de las horas extras, las horas complementarias y los trabajos nocturnos realizados por los empleados, lo que dificulta el cumplimiento de las regulaciones laborales y la garantía de una compensación justa para el personal.*
+
+Fin.
