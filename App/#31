@@ -1,0 +1,33 @@
+empleados = {
+    '123': {'nombre': 'Juan Pérez', 'email': 'juan@example.com', 'cargo': 'Desarrollador'},
+    '456': {'nombre': 'María López', 'email': 'maria@example.com', 'cargo': 'Diseñador'},
+    '789': {'nombre': 'Carlos Rodríguez', 'email': 'carlos@example.com', 'cargo': 'Gerente'}
+}
+
+# buscar y mostrar información del empleado
+def mostrar_datos_empleado(id_empleado):
+    empleado = empleados.get(id_empleado)
+    if empleado:
+        print(f"Nombre: {empleado['nombre']}")
+        print(f"Email: {empleado['email']}")
+        print(f"Cargo: {empleado['cargo']}")
+    else:
+        print(f"No se encontraron datos para el ID de empleado {id_empleado}")
+    
+    try:
+        ans = len(empleado,id_empleado)
+    except Exception as e:
+        print('La cagaste...')
+      
+
+# Solicitar al usuario que ingrese el ID de empleado
+id_ingresado = input("Ingrese el ID de empleado: ")
+
+# Mostrar datos del empleado si existe la clave
+mostrar_datos_empleado(id_ingresado)
+
+
+
+        
+
+        
