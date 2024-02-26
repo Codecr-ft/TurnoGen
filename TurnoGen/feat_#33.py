@@ -1,19 +1,11 @@
-from datetime import time
-
 class BusinessHours:
-    def __init__(self, opening_time, closing_time):
-        self._opening_time = opening_time
-        self._closing_time = closing_time
+    def __init__(self, opening_time_str, closing_time_str):
+        self.opening_time = self.parse_time(opening_time_str)
+        self.closing_time = self.parse_time(closing_time_str)
 
-    @property
-    def opening_time(self):
-        return self._opening_time
+    def parse_time(self, time_str):
+        hour, minute = map(int, time_str.split(':'))
+        return time(hour, minute)
 
-    @property
-    def closing_time(self):
-        return self._closing_time
-
-    def is_open_at(self, date_time):
-        time_of_day = date_time.time()
-        return self.opening_time <= time_of_day <= self.closing_time
+    
 
