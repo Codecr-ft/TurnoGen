@@ -14,5 +14,8 @@ class Turno:
         else:
             raise ValueError("Tipo de jornada no válido")
         return time(new_hour, self.check_in.minute)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f377b5e0b0d484eadc4247baef05c57ad82b6d43
