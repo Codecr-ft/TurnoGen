@@ -11,3 +11,4 @@ class Day:
         self.date = date
         self.working = working
         self.holiday = holiday
+        
