@@ -1,23 +1,35 @@
-class Dia:
-    def __init__(self):
-        self.horario_apertura = []
+from datetime import datetime, timedelta
 
-    def dividir_en_medias_horas(self):
-        for hora in range(11, 24):
-            self.horario_apertura.append(f"{hora}:00 / {hora}:30")
-            self.horario_apertura.append(f"{hora}:30 / {hora+1}:00")
+def get_workday(check_in, full_time=True):
+    try:
+        check_in = datetime.strptime(check_in, "%H:%M")
+    except ValueError:
+        print("Formato de hora incorrecto. Utiliza el formato HH:MM (por ejemplo, 09:00)")
+        return
 
-    def obtener_horario_apertura(self):
-        return self.horario_apertura
+    check_out = check_in + timedelta(hours=8 if full_time else 4)
+    
+    return check_in.strftime("%H:%M"), check_out.strftime("%H:%M")
 
 def main():
-    mi_dia = Dia()
-    mi_dia.dividir_en_medias_horas()
-    lista_horario_apertura = mi_dia.obtener_horario_apertura()
+    check_in = input("Introduce la hora de entrada (formato HH:MM): ")
+    type_journey = input("¿Es un turno de jornada completa? (s/n): ").lower()
     
-    print("\nHorario de apertura:")
-    for hora_apertura in lista_horario_apertura:
-        print(hora_apertura)
+    if type_journey == 's':
+        full_time = True
+    elif type_journey == 'n':
+        full_time = False
+    else:
+        print("Opción inválida. Por favor, responde 's' para sí o 'n' para no.")
+        return
+
+    check_in, check_out = get_workday(check_in, full_time)
+    
+    if check_in and check_out:
+        print("Rango de turno:")
+        print(f"Hora de entrada: {check_in}")
+        print(f"Hora de salida: {check_out}")
 
 if __name__ == "__main__":
     main()
+
