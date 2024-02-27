@@ -8,14 +8,9 @@ class Turno:
 
     def get_check_out(self):
         if self.type_workday == 'completa':
-            check_out = self.add_hours(self.check_in, 8)
+            new_hour = (self.check_in.hour + 8)
         elif self.type_workday == 'partida':
-            check_out = self.add_hours(self.check_in, 4)
+            new_hour = (self.check_in.hour + 4)
         else:
             raise ValueError("Tipo de jornada no válido")
-        return check_out
-
-    def add_hours(self, check_time, hours):
-        new_hour = (check_time.hour + hours) % 24
-        return time(new_hour, check_time.minute)
-
+        return time(new_hour, self.check_in.minute)
