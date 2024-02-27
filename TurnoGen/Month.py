@@ -1,3 +1,5 @@
+from day import Day
+
 class Month:
     def __init__(self, name, num_days):
         """
@@ -9,4 +11,4 @@ class Month:
         """
         self.name = name
         self.num_days = num_days
-        self.days = []
+        self.days = [Day(date=i) for i in range(1, num_days + 1)]
