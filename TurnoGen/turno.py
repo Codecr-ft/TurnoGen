@@ -12,5 +12,5 @@ class Turno:
         elif self.type_workday == 'partida':
             new_hour = (self.check_in.hour + 4)
         else:
-            raise ValueError("Tipo de jornada no válido")
+            raise ValueError("Tipo de jornada no válido, escriba 'completa' o 'partida'.")
         return time(new_hour, self.check_in.minute)
