@@ -1,6 +1,6 @@
 from datetime import time
 
-class Turno:
+class Shift:
     def __init__(self, check_in, type_workday):
         self.check_in = check_in
         self.type_workday = type_workday
