@@ -1,4 +1,4 @@
-from Month import Month
+from month import Month
 
 class AnnualCalendar:
     def __init__(self, year):

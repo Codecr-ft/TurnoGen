@@ -1,4 +1,4 @@
-from Day import Day
+from day import Day
 
 class Month:
     def __init__(self, name, num_days):
