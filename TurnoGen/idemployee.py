@@ -1,3 +1,3 @@
-class IDemployee: 
+class IDemployee:  
     def __init__(self, email):
         self.email = email
