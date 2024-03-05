@@ -1,6 +1,3 @@
 class Restaurant:
-    def _init_(self, name, adress):
-        self.name = name
-        self.adress = adress
-        self.employee = []
-      
+    def __init__(self, employees=None):
+        self.employees = employees or []  
