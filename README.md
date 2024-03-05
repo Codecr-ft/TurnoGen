@@ -10,6 +10,18 @@ Soy gerente de un restaurante y tengo un problema todos los meses con la elabora
 - Tener en cuante que tanto en la apertura como en el cierre del local deben de haber siempre mínimo 2 personas.
 - Tener en cuenta las necesidades particulares de cada trabajador, como sus días de asuntos propios, los descansos, las vacaciones o la propia conciliación.
 - Tener que calcular las horas extras/complementarias que ha realizado cada trabajador, o las horas en horario nocturno, así como los turnos partidos que hace cada uno de ellos, ya que intentamos limitarlos a 1 turno partido a la semana.
+
+## Estado del proyecto
+
+- El proyecto Turnogen esta ahora mismo en desarrollo y en una fase inicial.
+
+## Requisitos previos
+
+- Para contribuir en el proyecto, por favor leer el readme y las historias de usuario que estan en el directorio docs.
+
+## Estructura del proyecto
+
+- Por ahora solo tenemos los directorios docs donde esta la documentacion del proyecto y el directorio Turnogen que es donde se sube todo el codigo que se crea.
 # Wiki: https://github.com/Codecr-ft/TurnoGen/wiki/Inicio
 
 FIN.
