@@ -6,8 +6,8 @@ class Restaurant:
         Args:
         - employees: Lista opcional de empleados del restaurante.
         """
-        # Si no se proporciona ninguna lista de empleados, se inicializa como una lista vacía
-        self.employees = employees or []
+        # Si no se proporciona ninguna lista de empleados o la lista está vacía, se inicializa con un empleado por defecto
+        self.employees = employees if employees is not None and len(employees) > 0 else ["Empleado por defecto"]
 
     def add_employee(self, employee):
         """
@@ -44,21 +44,3 @@ class Restaurant:
             print(f"Empleado actualizado: {old_employee} -> {new_employee}")
         else:
             print(f"{old_employee} no se encontró en la lista de empleados.")
-
-# Ejemplo de uso
-if __name__ == "__main__":
-    restaurant = Restaurant()
-    print("Lista de empleados inicial:", restaurant.employees)
-
-    # Agregar empleados
-    restaurant.add_employee("Juan")
-    restaurant.add_employee("María")
-    print("Lista de empleados después de agregar:", restaurant.employees)
-
-    # Eliminar un empleado
-    restaurant.remove_employee("Juan")
-    print("Lista de empleados después de eliminar:", restaurant.employees)
-
-    # Actualizar un empleado
-    restaurant.update_employee("María", "Pedro")
-    print("Lista de empleados después de actualizar:", restaurant.employees)
