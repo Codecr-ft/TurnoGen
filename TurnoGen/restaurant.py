@@ -27,8 +27,11 @@ class Restaurant:
         """
         if employee in self.employees:
             self.employees.remove(employee)
+            if len(self.employees) == 0:
+                self.employees.append("Empleado por defecto")
         else:
             print(f"{employee} no se encontró en la lista de empleados.")
+
 
     def update_employee(self, old_employee, new_employee):
         """
