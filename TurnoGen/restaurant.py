@@ -1,4 +1,4 @@
-class Restaurant:  
+class Restaurant:
     def __init__(self, employees=None):
         """
         Constructor de la clase Restaurant.
