@@ -1,49 +1,26 @@
 class Restaurant:
-    def __init__(self, employees=None):
-        """
-        Constructor de la clase Restaurant.
-        
-        Args:
-        - employees: Lista opcional de empleados del restaurante.
-        """
-        # Si no se proporciona ninguna lista de empleados o la lista está vacía, se inicializa con un empleado por defecto
-        self.employees = employees if employees is not None and len(employees) > 0 else ["Empleado por defecto"]
+    def __init__(self, employees=[]):
+        self.employees = employees
 
-    def add_employee(self, employee):
-        """
-        Agrega un nuevo empleado a la lista de empleados del restaurante.
+# Ejemplo de uso
+if __name__ == "__main__":
+    restaurant = Restaurant()
+    print("Lista de empleados inicial:", restaurant.employees)
 
-        Args:
-        - employee: El empleado a agregar.
-        """
-        self.employees.append(employee)
+    # Agregar empleados
+    restaurant.employees.append("Juan")
+    restaurant.employees.append("María")
+    print("Lista de empleados después de agregar:", restaurant.employees)
 
-    def remove_employee(self, employee):
-        """
-        Elimina un empleado de la lista de empleados del restaurante.
+    # Eliminar un empleado
+    if "Juan" in restaurant.employees:
+        restaurant.employees.remove("Juan")
+    print("Lista de empleados después de eliminar:", restaurant.employees)
 
-        Args:
-        - employee: El empleado a eliminar.
-        """
-        if employee in self.employees:
-            self.employees.remove(employee)
-            if len(self.employees) == 0:
-                self.employees.append("Empleado por defecto")
-        else:
-            print(f"{employee} no se encontró en la lista de empleados.")
-
-
-    def update_employee(self, old_employee, new_employee):
-        """
-        Actualiza la información de un empleado en la lista de empleados del restaurante.
-
-        Args:
-        - old_employee: El empleado cuya información se va a actualizar.
-        - new_employee: El nuevo empleado con la información actualizada.
-        """
-        if old_employee in self.employees:
-            index = self.employees.index(old_employee)
-            self.employees[index] = new_employee
-            print(f"Empleado actualizado: {old_employee} -> {new_employee}")
-        else:
-            print(f"{old_employee} no se encontró en la lista de empleados.")
+    # Actualizar un empleado
+    for i in range(len(restaurant.employees)):
+        if restaurant.employees[i] == "María":
+            restaurant.employees[i] = "Pedro"
+            print("Empleado actualizado: María -> Pedro")
+            break
+    print("Lista de empleados después de actualizar:", restaurant.employees)
