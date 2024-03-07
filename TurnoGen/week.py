@@ -1,21 +1,39 @@
 from datetime import date, timedelta
 class Week:
+    """
+    Clase que representa una semana.
+
+    Atributos:
+        start_date: La fecha de inicio de la semana.
+        end_date: La fecha de fin de la semana.
+    """
+
     def __init__(self, start_date, end_date):
         """
         Constructor de la clase Week.
+
         Args:
-        - start_date: La fecha de inicio de la semana.
-        - end_date: La fecha de fin de la semana.
+            start_date: La fecha de inicio de la semana.
+            end_date: La fecha de fin de la semana.
         """
         self.start_date = start_date
         self.end_date = end_date
 
 class WeeklyCalendar:
+    """
+    Clase que representa un calendario semanal para un año específico.
+
+    Atributos:
+        year: El año del calendario.
+        weeks: La lista de semanas en el calendario.
+    """
+
     def __init__(self, year):
         """
         Constructor de la clase WeeklyCalendar.
+
         Args:
-        - year: El año del calendario.
+            year: El año del calendario.
         """
         self.year = year
         self.weeks = []
