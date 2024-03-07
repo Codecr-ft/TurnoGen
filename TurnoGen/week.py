@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import date, timedelta
 
 class Week:
     def __init__(self, start_date, end_date):
