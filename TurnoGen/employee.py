@@ -24,6 +24,6 @@ class Employee:
         self.shift_management_ability = shift_management_ability
         self.email = email
         
-        employees = []
+
         
 
