@@ -1,5 +1,4 @@
 from datetime import date, timedelta
-
 class Week:
     """
     Clase que representa una semana.

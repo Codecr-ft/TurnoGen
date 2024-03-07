@@ -23,4 +23,7 @@ class Employee:
         self.labor_responsibility = labor_responsibility
         self.shift_management_ability = shift_management_ability
         self.email = email
+        
+
+        
 
