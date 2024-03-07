@@ -1,4 +1,5 @@
 from datetime import timedelta
+import datetime
 
 class Week:
     def __init__(self, start_date, end_date):
@@ -22,7 +23,7 @@ class WeeklyCalendar:
         self.weeks = []
 
         # Definir el calendario semanal
-        start_date = date(year, 1, 1)  # Comenzar desde el primer día del año
+        start_date = datetime(year, 1, 1)  # Comenzar desde el primer día del año
         while start_date.year == year:  # Continuar hasta el final del año
             end_date = start_date + timedelta(days=6)  # La semana termina después de 6 días
             self.weeks.append(Week(start_date, end_date))  # Agregar la semana a la lista
